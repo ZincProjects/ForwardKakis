@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
+import SettingsButton from "./SettingsButton";
 
 export default function Header() {
   return (
@@ -25,6 +26,7 @@ export default function Header() {
           >
             History
           </Link>
+          <SettingsButton />
           <ThemeToggle />
         </div>
       </nav>
