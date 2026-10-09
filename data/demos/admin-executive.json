@@ -1,0 +1,136 @@
+{
+  "id": "demo-admin-executive",
+  "createdAt": "2026-10-01T00:00:00.000Z",
+  "source": "demo",
+  "input": {
+    "jobTitle": "Admin Executive",
+    "jobDescription": "Support a 40-person SME office: manage schedules and meetings, handle phone and email enquiries, process purchase orders and claims, maintain filing and records, coordinate office supplies and vendors, help with onboarding new staff.",
+    "yearsExperience": 4,
+    "language": "en",
+    "plainLanguage": false,
+    "model": "claude-sonnet-5-5"
+  },
+  "result": {
+    "role_summary": "You keep the office running smoothly: coordinating people, paperwork and suppliers so everyone else can focus on their work. Much of the routine paperwork will get faster with AI, while your organising skills and the relationships you build become even more valuable.",
+    "tasks": [
+      {
+        "task": "Scheduling meetings and managing calendars",
+        "category": "automated",
+        "explanation": "Calendar assistants can already find common free slots, send invites and handle reschedules. You'll mostly set the rules and step in when priorities clash.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Data entry for purchase orders and staff claims",
+        "category": "automated",
+        "explanation": "AI can read receipts and invoices and fill in forms automatically. Your role shifts to checking exceptions and anything that looks unusual.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Filing, naming and organising documents",
+        "category": "automated",
+        "explanation": "Shared drives with AI search can tag and find documents for you, so manual filing becomes much less important.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Drafting emails, memos and announcements",
+        "category": "augmented",
+        "explanation": "AI can produce a solid first draft in seconds. You still decide the tone, check the facts and make sure it suits your office culture.",
+        "ai_tool_idea": "Paste your rough bullet points into an AI assistant and ask: \"Turn this into a friendly office announcement in under 120 words.\" Then edit to sound like you."
+      },
+      {
+        "task": "Answering routine staff and visitor enquiries",
+        "category": "augmented",
+        "explanation": "A simple FAQ chatbot or saved AI replies can handle common questions like leave forms or Wi-Fi passwords, freeing you for the trickier ones.",
+        "ai_tool_idea": "Ask an AI assistant to turn your most common questions into a one-page FAQ, then share it on the staff chat group."
+      },
+      {
+        "task": "Preparing meeting minutes and action items",
+        "category": "augmented",
+        "explanation": "Transcription tools can record and summarise meetings. You review for accuracy and follow up on who promised what.",
+        "ai_tool_idea": "Use a meeting transcription tool (with everyone's permission), then ask AI to list action items with owners and deadlines."
+      },
+      {
+        "task": "Comparing vendor quotations",
+        "category": "augmented",
+        "explanation": "AI can lay quotes side by side and spot differences quickly. Choosing the right vendor still needs your knowledge of reliability and past service.",
+        "ai_tool_idea": "Upload two or three quotations and ask AI to make a comparison table of price, delivery time and warranty."
+      },
+      {
+        "task": "Onboarding and welcoming new staff",
+        "category": "human_core",
+        "explanation": "Making someone feel welcome on their first day, introducing them around and answering nervous questions is about people, not paperwork.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Handling sensitive or urgent situations",
+        "category": "human_core",
+        "explanation": "When a staff member is upset, a delivery goes wrong or the boss needs something sorted now, your judgement and calm presence matter most.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Building good relationships with vendors and colleagues",
+        "category": "human_core",
+        "explanation": "Trust built over years, like knowing who to call for a favour, can't be automated, and it makes the whole office work better.",
+        "ai_tool_idea": null
+      }
+    ],
+    "skills_to_build": [
+      {
+        "skill": "Writing clear prompts for AI assistants",
+        "why": "Knowing how to ask AI for exactly what you need turns it into a reliable helper for emails, summaries and checklists."
+      },
+      {
+        "skill": "Checking AI output for accuracy",
+        "why": "AI sometimes gets details wrong. Being the person who catches mistakes makes you more trusted, not less needed."
+      },
+      {
+        "skill": "Basic workflow automation",
+        "why": "Simple no-code tools can connect forms, spreadsheets and email so routine steps happen on their own."
+      },
+      {
+        "skill": "Data privacy awareness",
+        "why": "Offices handle personal data like NRIC numbers and salaries. Knowing what is safe to put into AI tools protects your colleagues and your company."
+      },
+      {
+        "skill": "Process improvement",
+        "why": "As routine tasks shrink, you can become the person who spots what's slow and suggests better ways of working."
+      }
+    ],
+    "plan_30_days": [
+      {
+        "week": 1,
+        "focus": "Get comfortable with an AI assistant",
+        "actions": [
+          "Sign up for a free AI assistant and use it to draft three real emails you need to send this week.",
+          "Keep a simple note of which drafts saved you time and which needed heavy editing."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Learn the safe-use basics",
+        "actions": [
+          "Check whether your company has rules on AI tools, and ask your manager if not.",
+          "Practise removing names, NRIC numbers and salaries before pasting anything into AI.",
+          "Try summarising one long document or email thread with AI and check it against the original."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Automate one routine task",
+        "actions": [
+          "Pick one repetitive task, such as the weekly supplies order, and write down every step.",
+          "Ask AI to suggest a template or checklist that cuts at least one step out."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Share what you've learned and plan ahead",
+        "actions": [
+          "Show one colleague or your manager a time-saving trick you found.",
+          "Look up subsidised AI or digital skills courses available to Singapore workers and shortlist one to join next month."
+        ]
+      }
+    ],
+    "encouragement": "You already juggle people, deadlines and details every day. AI just takes some of the busywork off your plate so your organising talent can shine."
+  }
+}

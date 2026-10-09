@@ -1,0 +1,130 @@
+{
+  "id": "demo-retail-supervisor",
+  "createdAt": "2026-10-01T00:00:00.000Z",
+  "source": "demo",
+  "input": {
+    "jobTitle": "Retail Supervisor",
+    "jobDescription": "Supervise a team of 8 at a neighbourhood mall outlet. Plan shift rosters, handle customer complaints, monitor stock levels and reorder, train new staff, ensure visual merchandising standards, prepare daily sales reports for area manager.",
+    "yearsExperience": 7,
+    "language": "en",
+    "plainLanguage": false,
+    "model": "claude-sonnet-5-5"
+  },
+  "result": {
+    "role_summary": "You lead a small team on the shop floor, keeping customers happy, shelves stocked and sales on track. AI will help most with forecasting, rosters and reports, while leading people and serving customers face-to-face stay firmly in your hands.",
+    "tasks": [
+      {
+        "task": "Preparing daily and weekly sales reports",
+        "category": "automated",
+        "explanation": "Point-of-sale systems with AI features can create sales summaries and charts automatically. You'll spend your time reading the story behind the numbers instead of typing them.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Tracking stock levels and suggesting reorders",
+        "category": "automated",
+        "explanation": "Inventory tools can predict when items will run low, including around festive periods like Chinese New Year or Hari Raya, and suggest order quantities.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Planning shift rosters",
+        "category": "augmented",
+        "explanation": "AI rostering tools can create a first draft that matches busy hours. You adjust it for things only you know, like who needs to fetch their kids on Tuesdays.",
+        "ai_tool_idea": "Give an AI assistant your staff availability and peak hours, and ask it to propose a weekly roster as a table you can then tweak."
+      },
+      {
+        "task": "Spotting sales trends and planning promotions",
+        "category": "augmented",
+        "explanation": "AI can highlight which products sell when, helping you suggest better promotions to your area manager.",
+        "ai_tool_idea": "Paste last month's top and bottom sellers into AI and ask: \"What patterns do you see, and what three simple promotions could I try?\""
+      },
+      {
+        "task": "Writing product descriptions and shelf signage",
+        "category": "augmented",
+        "explanation": "AI can quickly write short, catchy signage in several languages, which is useful for Singapore's mix of shoppers.",
+        "ai_tool_idea": "Ask AI to write a 10-word promo sign for an item in English and Chinese, then check the wording with a colleague who reads Chinese."
+      },
+      {
+        "task": "Training new staff on procedures",
+        "category": "augmented",
+        "explanation": "AI can help you turn your know-how into simple checklists and quizzes. The real coaching on the floor still comes from you.",
+        "ai_tool_idea": "Describe your cash-closing routine to AI and ask it to make a simple step-by-step checklist for new hires."
+      },
+      {
+        "task": "Handling customer complaints and difficult situations",
+        "category": "human_core",
+        "explanation": "An upset customer wants to feel heard by a real person. Your patience and judgement on when to bend the rules can't be replaced.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Leading and motivating your team",
+        "category": "human_core",
+        "explanation": "Noticing when someone is having a bad day, celebrating good work and keeping morale up during busy seasons is what makes a team stick together.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Keeping the store looking good (visual merchandising)",
+        "category": "human_core",
+        "explanation": "Walking the floor and seeing what catches a shopper's eye needs your eye for detail and feel for your customers.",
+        "ai_tool_idea": null
+      }
+    ],
+    "skills_to_build": [
+      {
+        "skill": "Reading data dashboards",
+        "why": "Being comfortable with sales and stock dashboards lets you make faster, more confident decisions and explain them to your manager."
+      },
+      {
+        "skill": "Using AI for everyday writing",
+        "why": "Rosters, notices, training checklists and reports all get quicker when you can ask AI for a good first draft."
+      },
+      {
+        "skill": "Coaching and people development",
+        "why": "As tools take over admin, your value as a leader who grows people becomes the heart of the job."
+      },
+      {
+        "skill": "Customer experience design",
+        "why": "Physical stores compete with online shopping on experience. Knowing how to make visits enjoyable is a lasting skill."
+      },
+      {
+        "skill": "Helping your team adopt new tools",
+        "why": "Your staff will look to you when new systems arrive. Being a calm, positive guide makes the change easier for everyone."
+      }
+    ],
+    "plan_30_days": [
+      {
+        "week": 1,
+        "focus": "Explore the tools you already have",
+        "actions": [
+          "Ask your area manager or IT contact which reporting or AI features your point-of-sale system already includes.",
+          "Spend 20 minutes exploring one dashboard and note three things it tells you."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Try AI on rosters and notices",
+        "actions": [
+          "Use an AI assistant to draft next week's roster from your availability notes, then compare it with your usual one.",
+          "Ask AI to write one staff notice or customer sign, and edit it in your own voice."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Turn your know-how into training material",
+        "actions": [
+          "Pick one procedure you teach often and use AI to turn it into a short checklist.",
+          "Test the checklist with your newest team member and improve it based on their feedback."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Grow as a people leader",
+        "actions": [
+          "Hold a 10-minute chat with your team about which new tools could make their shifts easier.",
+          "Look up subsidised courses in digital retail or team leadership open to Singapore workers, and pick one that fits your schedule.",
+          "Share one data insight with your area manager along with a suggestion for action."
+        ]
+      }
+    ],
+    "encouragement": "Machines can count stock, but they can't calm an angry customer or lift a tired team on a Saturday rush. That's you, and it matters more than ever."
+  }
+}

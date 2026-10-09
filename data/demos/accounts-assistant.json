@@ -1,0 +1,119 @@
+{
+  "id": "demo-accounts-assistant",
+  "createdAt": "2026-10-01T00:00:00.000Z",
+  "source": "demo",
+  "input": {
+    "jobTitle": "Accounts Assistant",
+    "jobDescription": "Handle accounts payable and receivable, process invoices and payments, perform bank reconciliations, chase overdue payments, assist with GST filing and month-end closing, maintain records in accounting software.",
+    "yearsExperience": 2,
+    "language": "en",
+    "plainLanguage": false,
+    "model": "claude-sonnet-5-5"
+  },
+  "result": {
+    "role_summary": "You keep the money side of the business accurate: invoices in, payments out, and books that balance. A lot of the repetitive matching and keying will be done by software, so your growing value is in checking, explaining and spotting what doesn't look right.",
+    "tasks": [
+      {
+        "task": "Keying in supplier invoices",
+        "category": "automated",
+        "explanation": "Accounting software can now read invoices from email or photos and fill in the details automatically. You'll handle the ones it isn't sure about.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Bank reconciliations",
+        "category": "automated",
+        "explanation": "Most transactions can be matched to bank records automatically. Your job becomes investigating the few that don't match.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Sending standard payment reminders",
+        "category": "automated",
+        "explanation": "Reminder emails for overdue invoices can be scheduled and sent by the system on fixed dates.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Preparing month-end closing schedules",
+        "category": "augmented",
+        "explanation": "AI can pull together reports and flag unusual movements, but you still need to understand and explain the numbers.",
+        "ai_tool_idea": "Paste a summary of this month's expenses (with no names or account numbers) into AI and ask it to point out anything that changed a lot from last month."
+      },
+      {
+        "task": "Supporting GST filing",
+        "category": "augmented",
+        "explanation": "Software can calculate GST figures, but checking that items are classified correctly takes care and an understanding of the rules.",
+        "ai_tool_idea": "Ask an AI assistant to explain a GST rule you are unsure about in simple terms, then confirm it against official guidance before acting."
+      },
+      {
+        "task": "Answering finance questions from colleagues",
+        "category": "augmented",
+        "explanation": "AI can help you draft clear explanations of claims policies or payment timelines, making you the go-to person for help.",
+        "ai_tool_idea": "Ask AI: \"Explain our 30-day payment terms to a new sales colleague in three friendly sentences.\" Then adjust for your company."
+      },
+      {
+        "task": "Following up on difficult overdue accounts",
+        "category": "human_core",
+        "explanation": "When a long-time customer is struggling to pay, a thoughtful phone call that keeps the relationship intact needs a human touch.",
+        "ai_tool_idea": null
+      },
+      {
+        "task": "Spotting errors and possible fraud",
+        "category": "human_core",
+        "explanation": "Tools can flag odd entries, but deciding whether something is a simple mistake or a real concern needs your judgement and honesty.",
+        "ai_tool_idea": null
+      }
+    ],
+    "skills_to_build": [
+      {
+        "skill": "Using automation features in accounting software",
+        "why": "Knowing your software's auto-matching and invoice-reading features well means you set them up right and fix them when they go wrong."
+      },
+      {
+        "skill": "Spreadsheet analysis",
+        "why": "Pivot tables and simple formulas help you understand the numbers behind the reports AI produces."
+      },
+      {
+        "skill": "Explaining numbers in plain language",
+        "why": "Managers need someone who can say what the figures mean. That's a skill that grows in value as reports become automatic."
+      },
+      {
+        "skill": "Internal controls and data security",
+        "why": "With more automation, someone needs to make sure the right checks and approvals are still in place."
+      }
+    ],
+    "plan_30_days": [
+      {
+        "week": 1,
+        "focus": "Learn what your software can automate",
+        "actions": [
+          "Watch the official tutorial videos for your accounting software's automation or AI features.",
+          "List the three tasks that take most of your week."
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Try one automation safely",
+        "actions": [
+          "With your supervisor's OK, switch on one feature such as bank-feed matching and check its results carefully for a week.",
+          "Note how many items it matched correctly and how many you had to fix."
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Practise explaining the numbers",
+        "actions": [
+          "Use AI to help you write a three-sentence summary of last month's expenses, then check every figure yourself.",
+          "Share the summary with your supervisor and ask for feedback."
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Plan your next step",
+        "actions": [
+          "Look up subsidised courses in digital accounting or data analysis for Singapore workers, and shortlist one.",
+          "Write down one process you'd like to improve next quarter and why."
+        ]
+      }
+    ],
+    "encouragement": "Accuracy and trust are the heart of accounting, and AI makes careful people like you even more valuable."
+  }
+}

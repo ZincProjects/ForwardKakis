@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+/* Dark mode follows data-theme on <html>, which an inline script sets before
+   first paint (system preference unless the user picked one). */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+  --bg: #fbf7f0;
+  --surface: #ffffff;
+  --surface-2: #f4ede1;
+  --ink: #1f2421;
+  --ink-soft: #4a524d;
+  --line: #e3d9c8;
+  --brand: #0f6b5c;
+  --brand-ink: #ffffff;
+  --brand-soft: #dff1ec;
+  --accent: #b4461b;
+  --focus: #1d4ed8;
+
+  --auto-bg: #fdf0d5;
+  --auto-line: #e9c46a;
+  --auto-ink: #6b4a00;
+  --aug-bg: #dcefff;
+  --aug-line: #7fb3e6;
+  --aug-ink: #0b4777;
+  --human-bg: #fbe3ea;
+  --human-line: #e79ab0;
+  --human-ink: #7d1d3f;
+
+  --danger-bg: #fde8e8;
+  --danger-ink: #8a1c1c;
+  --ok-bg: #e2f5e9;
+  --ok-ink: #14532d;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #141917;
+  --surface: #1c2320;
+  --surface-2: #232c28;
+  --ink: #eef2ef;
+  --ink-soft: #b8c2bc;
+  --line: #34413b;
+  --brand: #5fd0b8;
+  --brand-ink: #08201b;
+  --brand-soft: #173a33;
+  --accent: #f29b6c;
+  --focus: #93c5fd;
+
+  --auto-bg: #3a2e12;
+  --auto-line: #8a6d1f;
+  --auto-ink: #f6dc9a;
+  --aug-bg: #12304a;
+  --aug-line: #3f7bb0;
+  --aug-ink: #b9dcff;
+  --human-bg: #3d1a26;
+  --human-line: #a3506b;
+  --human-ink: #ffc9d8;
+
+  --danger-bg: #3d1717;
+  --danger-ink: #fecaca;
+  --ok-bg: #12321f;
+  --ok-ink: #bbf7d0;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-soft: var(--brand-soft);
+  --color-accent: var(--accent);
+  --color-auto-bg: var(--auto-bg);
+  --color-auto-line: var(--auto-line);
+  --color-auto-ink: var(--auto-ink);
+  --color-aug-bg: var(--aug-bg);
+  --color-aug-line: var(--aug-line);
+  --color-aug-ink: var(--aug-ink);
+  --color-human-bg: var(--human-bg);
+  --color-human-line: var(--human-line);
+  --color-human-ink: var(--human-ink);
+  --color-danger-bg: var(--danger-bg);
+  --color-danger-ink: var(--danger-ink);
+  --color-ok-bg: var(--ok-bg);
+  --color-ok-ink: var(--ok-ink);
+  --font-sans: var(--font-body), system-ui, "Segoe UI", "Noto Sans", "Noto Sans SC", "Noto Sans Tamil", sans-serif;
+  --font-display: var(--font-heading), var(--font-body), system-ui, sans-serif;
+}
+
+html {
+  font-size: 106.25%; /* 17px base: large, readable text */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  :root,
+  [data-theme="dark"] {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #ffffff;
+    --ink: #000000;
+    --ink-soft: #333333;
+    --line: #999999;
+  }
+  .no-print {
+    display: none !important;
+  }
+  body {
+    font-size: 11pt;
+  }
+  .print-avoid-break {
+    break-inside: avoid;
+  }
+}
