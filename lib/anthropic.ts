@@ -14,7 +14,7 @@ export function createClient(apiKey: string): Anthropic {
 }
 
 export interface FriendlyError {
-  kind: "invalid_key" | "rate_limit" | "no_credit" | "network" | "overloaded" | "permission" | "bad_request" | "unknown";
+  kind: "invalid_key" | "rate_limit" | "no_credit" | "network" | "overloaded" | "permission" | "bad_request" | "cancelled" | "unknown";
   title: string;
   message: string;
 }

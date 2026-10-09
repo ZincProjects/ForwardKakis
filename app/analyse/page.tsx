@@ -1,15 +1,17 @@
-import Link from "next/link";
+import JobForm from "@/components/JobForm";
 
 export const metadata = { title: "Analyse my job · ForwardKakis" };
 
 export default function AnalysePage() {
   return (
-    <div className="space-y-4">
-      <h1 className="font-display text-3xl font-bold">Analyse my job</h1>
-      <p className="text-ink-soft">Live analysis is coming in the next build phase.</p>
-      <Link href="/#demos" className="font-bold text-brand underline">
-        Try a demo meanwhile
-      </Link>
+    <div className="space-y-6">
+      <div className="space-y-2">
+        <h1 className="font-display text-3xl font-bold sm:text-4xl">Analyse my job</h1>
+        <p className="text-lg text-ink-soft">
+          A job title is enough to start. The more you tell us, the more useful the result.
+        </p>
+      </div>
+      <JobForm />
     </div>
   );
 }
