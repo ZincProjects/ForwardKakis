@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { CATEGORIES, CATEGORY_META, LANGUAGES, type StoredAnalysis } from "@/lib/schema";
 import SplitBar from "./SplitBar";
 import TaskCard from "./TaskCard";
@@ -82,6 +83,21 @@ export default function ResultView({ analysis }: { analysis: StoredAnalysis }) {
           {result.encouragement}
         </p>
       </section>
+
+      <nav aria-label="Next steps" className="no-print flex flex-wrap gap-3">
+        <Link
+          href="/analyse"
+          className="inline-flex min-h-12 items-center rounded-xl bg-brand px-5 font-bold text-brand-ink hover:opacity-90"
+        >
+          {analysis.source === "demo" ? "Analyse my own job →" : "Analyse another job →"}
+        </Link>
+        <Link
+          href="/#demos"
+          className="inline-flex min-h-12 items-center rounded-xl border-2 border-line px-5 font-bold hover:bg-surface-2"
+        >
+          See other demos
+        </Link>
+      </nav>
     </article>
   );
 }
